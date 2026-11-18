@@ -7,10 +7,9 @@
 ## About me
 
 I'm an Information Systems undergrad at UFSC with a focus on **applied cryptography and
-network programming in C++** — the kind of work that sits underneath PKI systems: TLS,
-X.509 certificates, and the protocols that move them around.
+network programming in C++**
 
-I'm currently studying CAs and RAs, with a growing interest in digital signatures and applied cryptography. My goal is to build trustworthy systems on top of digital certificates. I like digging into things by reading RFCs and documentation instead of stopping at a tutorial — working close to the metal: raw sockets, OpenSSL, and reading library source when the docs run out.
+I'm currently studying CAs and RAs, with a growing interest in digital signatures and applied cryptography. My goal is to build trustworthy systems on top of digital certificates.
 
 ---
 
@@ -18,26 +17,21 @@ I'm currently studying CAs and RAs, with a growing interest in digital signature
 
 - **Languages:** C, C++, Python
 - **Areas:** applied cryptography, PKI / X.509, network programming, systems security, low-level programming
-- **Tools:** OpenSSL, libevent, LibCryptoSec, sockets/TCP, Linux
+- **Tools:** OpenSSL, Docker, libevent, sockets/TCP, Linux
 
 ---
 
 ## Projects
 
-- **[sgc-challange](https://github.com/riccizzx/sgc-challange)**
+- **[msp](https://github.com/riccizzx/msp)**
+  Multi-party signature protocol prototype.
+- **[sgc-challange](https://github.com/riccizzx/sgc-challaenge)**
   My solution to LabSEC's own selection challenge (fork of
-  [`LabSEC/DesafioLabsec`](https://github.com/LabSEC/DesafioLabsec)), built with their
-  LibCryptoSec library — the same OpenSSL wrapper used across the Ywapa/Ywyra/Hawa
-  certificate management systems.
+  [`LabSEC/DesafioLabsec`](https://github.com/LabSEC/DesafioLabsec)), built with LibCryptoSec library.
 
 - **[xhttps](https://github.com/riccizzx/xhttps)**
   An HTTPS implementation from scratch in C++ using libevent and OpenSSL, built for
-  learning purposes. Covers the same territory as the web-service layer that connects
-  Hawa's AC and AR environments.
-
-- **[crypt](https://github.com/riccizzx/crypt)**
-  Cryptopals exercises and other applied-cryptography experiments — working through the
-  classic attacks and primitives by hand instead of just calling a library.
+  learning purposes.
 
 - **[tcp_tunnel](https://github.com/riccizzx/tcp_tunnel)**
   A simple TCP tunnel/forwarder in C++, for practicing socket programming at a low level.
