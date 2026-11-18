@@ -25,7 +25,7 @@ I'm currently studying CAs and RAs, with a growing interest in digital signature
 
 - **[msp](https://github.com/riccizzx/msp)**
   Multi-party signature protocol prototype.
-- **[sgc-challange](https://github.com/riccizzx/sgc-challaenge)**
+- **[sgc-challenge](https://github.com/riccizzx/sgc-challenge)**
   My solution to LabSEC's own selection challenge (fork of
   [`LabSEC/DesafioLabsec`](https://github.com/LabSEC/DesafioLabsec)), built with LibCryptoSec library.
 
